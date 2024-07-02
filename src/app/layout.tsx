@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "すたんぷつむぎ",
-  description: "RUNTEQのマタモのスタンプで言葉をつむぐ",
+  title: "らんすた",
+  description: "RUNTEQのマタモのカスタムスタンプ集",
 };
 
 export default function RootLayout({
