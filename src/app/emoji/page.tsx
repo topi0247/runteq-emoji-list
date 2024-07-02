@@ -16,7 +16,7 @@ export default function Emojis() {
   };
 
   return (
-    <main className="p-4 w-full relative">
+    <main className="p-4 w-full relative overflow-x-hidden">
       <div className="grid grid-cols-10 flex-wrap pb-20">
         {Array.from({ length: page }, (_, index) => (
           <EmojiList
